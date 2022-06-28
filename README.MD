@@ -1,3 +1,7 @@
+# A modified version of MCT
+
+This is a modified version of MCT to support tensorflow 2.9.0.
+
 # Model Compression Toolkit (MCT)
 ![tests](https://github.com/sony/model_optimization/actions/workflows/run_tests_suite_all_latest_frameworks.yml/badge.svg)
 
