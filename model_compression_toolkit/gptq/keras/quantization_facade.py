@@ -39,7 +39,8 @@ if importlib.util.find_spec("tensorflow") is not None\
     from model_compression_toolkit.core.keras.keras_model_validation import KerasModelValidation
     from tensorflow.keras.models import Model
     from model_compression_toolkit.gptq.keras.gptq_loss import multiple_tensors_mse_loss
-    from keras.optimizer_v2.optimizer_v2 import OptimizerV2
+    # from keras.optimizer_v2.optimizer_v2 import OptimizerV2
+    from keras.optimizers.optimizer_v2.optimizer_v2 import OptimizerV2
     from model_compression_toolkit.core.keras.constants import DEFAULT_TP_MODEL
 
     from model_compression_toolkit import get_target_platform_capabilities
