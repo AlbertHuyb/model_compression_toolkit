@@ -23,10 +23,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install tensorflow==2.9.*
           pip install tensorflow_model_optimization
           pip install torch torchvision
           pip install coverage
+          pip install tensorflow==2.9.0
       - name: Run unittests
         run: coverage run -m --omit "./tests*,*__init__.py" unittest tests/test_suite.py -v
       - name: Run Coverage
